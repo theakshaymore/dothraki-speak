@@ -9,4 +9,5 @@ Built using Vanilla JS, HTML and CSS
 - Built using Fun Transaltions API
 
 ### App snapshot
-![screenshot](./screenshot.png)
+![screenshot](./ss1.png)
+![screenshot](./ss2.png)
