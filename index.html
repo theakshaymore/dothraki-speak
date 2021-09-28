@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dothraki Translator</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Banner -->
+      <section class="hero">
+        <div class="hero-body">
+          <div class="notification is-primary">
+            <h2 class="title"><strong>Dothraki Translator</strong></h2>
+          </div>
+        </div>
+      </section>
+      <!-- header image and text -->
+      <div class="hero">
+        <img
+          src="https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/05/18/104478617-dothrak.530x298.jpg?v=1495121840"
+          class="hero-image"
+        />
+        <h1 class="hero-heading">
+          <span class="orange">English to</span
+          ><span class="green"> <b>Dothraki</b></span> Translator
+        </h1>
+      </div>
+      <!-- input area -->
+      <div class="container">
+        <div class="box mx-5 my-3">
+          <span>Input</span>
+          <textarea
+            id="txt-input"
+            class="textarea"
+            placeholder="e.g. Hello"
+            rows="2"
+          ></textarea>
+        </div>
+
+        <div id="errorMessage" class="mx-5"></div>
+
+        <div class="my-5 is-flex is-justify-content-center">
+          <button id="btn-translate" class="button is-primary">
+            <strong>Translate to Dothraki</strong>
+          </button>
+        </div>
+        <div class="box mx-5 my-3">
+          <span>Output</span>
+          <textarea id="output" class="textarea" rows="2"></textarea>
+        </div>
+      </div>
+      <section class="hero">
+        <div class="hero-body">
+          <div class="notification is-primary">
+            <h2><strong>What is Dothraki?</strong></h2>
+            <p class="mt-2 mb-1">
+              Have you watched <strong>Game of Thrones?</strong>
+            </p>
+            <p>
+              The Dothraki are a race of nomadic horse-mounted warriors in
+              Essos, the continent to the east of Westeros across the Narrow
+              Sea. They inhabit the vast central plains of Essos, known as the
+              Dothraki sea. Their bond with horses is such that Dothraki are
+              said to be born, fight, and die in the saddle.
+            </p>
+            <p class="mt-2">
+              <strong>Location: </strong>Dothraki Sea, Vaes Dothrak, Westeros
+            </p>
+            <p class="mt-1">
+              <strong>Ruler: </strong>Daenerys Targaryen, Khaleesi of the Great
+              Grass Sea
+            </p>
+            <p class="mt-1">
+              <strong>Also known as: </strong>Horse Lords; Screamers
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="footer has-background-primary my-5">
+      <div class="content has-text-centered">
+        <p>YER SHEKH MA SHIERAKI ANNI AND YER JALAN ATTHIRARI ANNI...</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
